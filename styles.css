@@ -19,30 +19,32 @@ html {
                 position: relative;
             }
 
-                #engines {
-                    margin: 10px;
-                }
-
-                    #search {
-                        padding-top: 2px;
-                    }
-                    #duck{
-                        max-width:20%;
-                        max-height:50%;
-                    }
-                    #ask {
-                        max-width:10%;
-                        max-height:50%;
-                    }
-                    #bing {
-                        max-width:10%;
-                        max-height:50%;
-                    }
-                    #google {
-                        max-width:15%;
-                        max-height:50%;
-                    }
-                    #go {
-                        padding-top: 1x;
-                    }
+                #search {
+                    padding-bottom: 25px;
+                }    
+                
+                    #engines {
+                            margin: 2%;
+                        }
+                    
+                        #duck{
+                            max-width:20%;
+                            max-height:50%;
+                        }
+                        #ask {
+                            max-width:10%;
+                            max-height:50%;
+                        }
+                        #bing {
+                            max-width:10%;
+                            max-height:50%;
+                        }
+                        #google {
+                            max-width:15%;
+                            max-height:50%;
+                        }
+                        #go {
+                            padding-top: 1x;
+                            padding-bottom: 10px;
+                        }
 
