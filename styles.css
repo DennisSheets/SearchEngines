@@ -1,0 +1,47 @@
+html {
+    font-family: sans-serif;
+}
+
+    body {
+        background-image: url(images/logo_launchCode.jpg);
+        background-size: 10%;
+    }
+
+        form {
+            margin: 20%;
+        }
+                
+            #clean {
+                background-color: white;
+                padding: 1em;
+                text-align: center;
+                position: relative;
+            }
+
+                #engines {
+                    margin: 10px;
+                }
+
+                    #search {
+                        padding-top: 2px;
+                    }
+                    #duck{
+                        max-width:20%;
+                        max-height:50%;
+                    }
+                    #ask {
+                        max-width:10%;
+                        max-height:50%;
+                    }
+                    #bing {
+                        max-width:10%;
+                        max-height:50%;
+                    }
+                    #google {
+                        max-width:15%;
+                        max-height:50%;
+                    }
+                    #go {
+                        padding-top: 1x;
+                    }
+
