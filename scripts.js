@@ -10,7 +10,7 @@ function setSearchEngine(){
         "bing": "https://www.bing.com/search",
         "ask": "https://www.ask.com/web",
         "yahoo": "https://search.yahoo.com/search",
-        "baidu"; "https://www.baidu.com/s"
+        "baidu": "https://www.baidu.com/s"
 
     };
 
