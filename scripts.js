@@ -2,8 +2,7 @@
 function setSearchEngine(){
     let form = document.querySelector("form");
     let searchEngineSelected = document.querySelector('input[name=engine]:checked');
-    console.log(searchEngineSelected);
-
+    
     let searchEngines = {
         "google": "https://www.google.com/search",
         "duckduckgo": "https://duckduckgo.com/",
@@ -20,17 +19,25 @@ function setSearchEngine(){
 }
 
 window.addEventListener("load", function(){
-
     let form = document.getElementById("searchForm");
-    
-    form.addEventListener("submit",setSearchEngine);
 
+        form.addEventListener("submit",function(event){
 
+            let searchEngineSelected = document.querySelector('input[name=engine]:checked');
+            let q = document.querySelector('input[name=q]');
 
+            if(searchEngineSelected === null){
+                alert("Please select a search engine");
+                console.log("searchEngineSelected = null");
+                event.preventDefault();
+            }
 
-
-
-
-
-
+            if (q.innerHTML === "") {
+                alert("Enter something in the search field");
+                console.log("search field is empty");
+                event.preventDefault();
+            }
+            
+            form.addEventListener("submit",setSearchEngine);
+        });
 });
