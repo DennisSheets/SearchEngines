@@ -31,7 +31,11 @@ window.addEventListener("load", function(){
                 console.log(`searchEngineSelected: ${searchEngineSelected}`);
                 event.preventDefault();
             }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 74cc6383ef793acc9acbb77b55142fa6ee9d8fd4
             if (q.value === "") {
                 alert("Enter something in the search field");
                 console.log(`q: ${q.value}`);
