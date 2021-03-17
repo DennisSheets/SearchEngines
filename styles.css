@@ -4,6 +4,7 @@ html {
 }
 
     body {
+     
         background-image: url(images/logo_launchCode.jpg);
         background-size: 3%;
     }
@@ -13,6 +14,7 @@ html {
         }
                 
             #clean {
+                
                 background-color: white;
                 padding: 1em;
                 text-align: center;
@@ -43,8 +45,16 @@ html {
                             max-width:15%;
                             max-height:50%;
                         }
+                        #yahoo {
+                            max-width:20%;
+                            max-height:50%;
+                        }
+                        #baidu {
+                            max-width:20%;
+                            max-height:50%;
+                        }
+                        
                         #go {
                             padding-top: 1x;
                             padding-bottom: 10px;
                         }
-
