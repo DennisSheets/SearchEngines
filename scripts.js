@@ -32,7 +32,7 @@ window.addEventListener("load", function(){
                 event.preventDefault();
             }
 
-            if (q.innerHTML === "") {
+            if (q.value === "") {
                 alert("Enter something in the search field");
                 console.log("search field is empty");
                 event.preventDefault();
