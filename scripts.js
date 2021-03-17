@@ -10,12 +10,11 @@ function setSearchEngine(){
         "ask": "https://www.ask.com/web",
         "yahoo": "https://search.yahoo.com/search",
         "baidu": "https://www.baidu.com/s"
-
     };
 
     let searchEngineUrl = searchEngines[searchEngineSelected.value];
     form.setAttribute("action",searchEngineUrl);
-    console.log(searchEngineUrl);
+
 }
 
 window.addEventListener("load", function(){
@@ -31,11 +30,7 @@ window.addEventListener("load", function(){
                 console.log(`searchEngineSelected: ${searchEngineSelected}`);
                 event.preventDefault();
             }
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> 74cc6383ef793acc9acbb77b55142fa6ee9d8fd4
             if (q.value === "") {
                 alert("Enter something in the search field");
                 console.log(`q: ${q.value}`);
