@@ -25,14 +25,16 @@ html {
                 }    
                 
                     #engines {
-                            margin: 2%;
+                            margin: 0%;
                         }
-                    
+ 
                         #duck{
+                            
                             max-width:20%;
                             max-height:50%;
                         }
                         #ask {
+                            
                             max-width:10%;
                             max-height:50%;
                         }

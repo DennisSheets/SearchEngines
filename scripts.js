@@ -28,13 +28,13 @@ window.addEventListener("load", function(){
 
             if(searchEngineSelected === null){
                 alert("Please select a search engine");
-                console.log("searchEngineSelected = null");
+                console.log(`searchEngineSelected: ${searchEngineSelected}`);
                 event.preventDefault();
             }
-
-            if (q.innerHTML === "") {
+ 
+            if (q.value === "") {
                 alert("Enter something in the search field");
-                console.log("search field is empty");
+                console.log(`q: ${q.value}`);
                 event.preventDefault();
             }
             
